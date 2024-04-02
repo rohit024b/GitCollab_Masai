@@ -5,19 +5,22 @@
 ## Cloning the Repository for the First Time
 ```bash
 git clone <repository_URL>
+git init
 
 # Making Changes to Files
 # Add changes to the staging area
 git add <file_name>
 
 # Commit changes
-git commit -m "Your commit message"
+git commit -m"Your commit message"
 
 #Pushing Changes to Remote Repository
-git push origin <branch_name>
+git push origin <branch_name> - main, master etc
 
 # Create a new branch
-git checkout -b <new_branch_name>
+git branch - this will show all the present branches
+git branch <new_branch_name> - this will create new branch
+git checkout -b <new_branch_name> - this will switch from current branch to the new branch
 
 # Push new branch to remote repository
 git push origin <new_branch_name>
