@@ -1,35 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Git_Collab_Assignment-1</title>
 </head>
-<style>    
+<style>
     /* css code write here */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    
-    *{
+
+    * {
         font-family: "Poppins", sans-serif;
     }
-    /* <!-- Jyotirmaya -->    <!-- Product Listing grid cells --> */
 
-    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 15px 3px 15px;
+        background-color: #252525;
+        color: white;
+    }
+
+    .hed-name {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons-brand i {
+        font-size: .85rem;
+        padding: 0 10px;
+    }
+
+    .link-part {
+        display: flex;
+    }
+
+    .midiya {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .midiya div {
+        padding: 5px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid white;
+    }
+
+    .midiya .cart-nav {
+        border-right: none;
+    }
+
+    .midiya div p {
+        font-size: .90rem;
+    }
+
+    .midiya div i {
+        padding: 0 15px;
+        font-size: 1.4rem;
+    }
+
+    .img-nav img {
+        width: 40px;
+    }
+
+    @media (max-width:800px) {
+        .midiya {
+            display: none;
+        }
+    }
+
+    /* <!-- Jyotirmaya -->    <!-- Product Listing grid cells --> */
 </style>
+
 <body>
     <!-- creating the reebok websites layout -->
-    <!-- Jyotirmaya -->    <!-- Product Listing grid cells -->
+
+    <!-- Lokesh --> <!-- 1st navBar -->
+    <nav>
+        <div class="nav-box">
+            <div class="hed-name">
+                <h5> MORE BRANDS</h5> <span class="icons-brand"><i class="fa-solid fa-chevron-down"></i> </span>
+            </div>
+            <div class="link-part">
+                <div class="midiya">
+                    <div class="location-nav">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>STORES</p>
+                    </div>
+                    <div class="info-nav">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <p>CONTACT US</p>
+                    </div>
+
+                    <div class="login">
+                        <i class="fa-solid fa-user"></i>
+                        <p>LOGIN</p>
+                    </div>
+                    <div class="like-nav">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="cart-nav">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                </div>
+                <div class="nav-logo-last">
+                    <div class="img-nav">
+                        <img src="./static/img/logo-nav1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 
 
-    <!-- Rohit -->     <!-- footer -->
 
-    <!-- Lokesh -->   <!-- 1st navBar -->
-    
+
+
+    <!-- Jyotirmaya --> <!-- Product Listing grid cells -->
+
+
+
+
 
 
 
     <!-- Kiran    2nd navBar -->
 
+
+
+
+    <!-- Rohit --> <!-- footer -->
+
 </body>
+
 </html>
