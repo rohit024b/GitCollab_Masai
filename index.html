@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Git_Collab_Assignment-1</title>
 </head>
 <style>
@@ -81,6 +82,72 @@
         }
     }
 
+    /* kiran */
+    body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .nav-bar2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            margin: 0 70px 0 70px;
+        }
+        .nav-bar2 img {
+            width: 150px;
+            height: auto;
+        }
+        .links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .links a:last-child span {
+            color: red;
+        }
+        .links a:hover {
+            text-decoration: 2px solid underline red;
+        }
+        .search-input {
+            border: none;
+            padding: 5px;
+            width: 200px;
+            text-align: left;
+            margin: 0 10px;
+        }
+        .search{
+            width: 250px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            border-bottom: 2px solid black;
+        }
+        .button{
+        height: 45px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: rgb(190, 0, 0);
+        gap: 10px;
+        border-radius: 28px;
+        }
+        .link-button{
+        border: none;
+        background-color: rgb(190, 0, 0);
+        }
+        .link-button > h4,p{
+        text-align: left;
+        margin: 0;
+        color: white;
+        }
+
     /* <!-- Jyotirmaya -->    <!-- Product Listing grid cells --> */
 </style>
 
@@ -126,8 +193,37 @@
 
 
 
+    <!-- Kiran    2nd navBar -->
 
-
+    <navbar class="nav-bar2">
+        <img src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format" alt="Reebok-Logo">
+        <div class="links">
+           <a href="#New">NEW</a>
+           <a href="#Men">MEN</a>
+           <a href="#Women">WOMEN</a>
+           <a href="#Icons">ICONS</a>
+           <a href="#Sports">SPORTS</a>
+           <a href="#Classic">CLASSIC</a>
+           <a href="#Sale"><span>SALE</span></a>
+        </div>
+        <div class="search">
+            <div class="icon">
+                <i style="font-size: 30px;" class='bx bx-search-alt-2'></i>
+            </div>
+            <input type="search" class="search-input" placeholder="Search"/>
+        </div>
+        <div class="button">
+            <div>
+                <i style="font-size: 25px; color: white;" class='bx bxs-truck' ></i>
+            </div>
+            <div>
+                <button class="link-button">
+                    <h4>EXPRESS DELIVERY</h6>
+                    <p>Select your nearest store ></p>
+                </button>
+            </div>
+        </div>
+    </navbar>
 
     <!-- Jyotirmaya --> <!-- Product Listing grid cells -->
 
@@ -137,7 +233,6 @@
 
 
 
-    <!-- Kiran    2nd navBar -->
 
 
 
