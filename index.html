@@ -221,6 +221,85 @@
         color: black;
         margin-top: 10px;
     }
+    /* Rohit */
+    body{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+
+    }
+
+    /* <!-- Rohit -->     <!-- footer --> */
+    .footer{
+        max-width: 100%;
+        background-color: #0c2340;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding: 30px 50px 30px 50px;
+        margin-top: 50px;
+    }
+    .leftdata{
+        width: 1fr;
+        display: flex;
+        gap: 50px;
+    }
+    .header{
+        text-align: left;
+        align-items: start;
+        align-content: start;
+        justify-content: start;
+    }
+    .header > ul, a, li{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        color: #ffffff;
+        font-size: 13px;
+    }
+    /* .formSubscribe{
+        background-color: #0c2340;
+        width: 100%;
+
+    } */
+    .form{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #ffffff;
+    }
+    .form > input{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        font-size: 19px;
+    }
+    .form > button{
+        background-color: transparent;
+        border: none;
+    }
+    .form > button > link,i{
+        color: #ffffff;
+        font-size: 30px;
+        
+    }
+    .socialInfo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .socialInfo :nth-child(2){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
 </style>
 
 <body>
@@ -347,17 +426,61 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
     <!-- Rohit --> <!-- footer -->
-
+    <div class="footer">
+        <div class="leftdata">
+            <div class="header">
+                <h3>NEED HELP?</h3>
+                <ul class="listData">
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return And Cancellation Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="header">
+                <h3>
+                    ABOUT US
+                </h3>
+                <ul class="listData">
+                    <li><a href="#">Aditya Birla Fashion & Retail Ltd</a></li>
+                    <li><a href="#">Find A Store</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid"></div>
+        <div class="socials">
+            <div class="header">
+                <h3>
+                    JOIN THE REEBOK COMMUNITY
+                </h3>
+            </div >
+            <form class="formSubscribe">
+                <div class="form">
+                    <input type="text" placeholder="Enter yout e-mail / mobile number">
+                    <button>
+                        <a class="link" href=""><i class='bx bx-right-arrow-alt'></i></a>
+                    </button>
+                </div>
+            </form>
+            <p>Sign up for updates on the latest Reebok collection, campaigns and videos.</p>
+            <div class="socialInfo">
+                <div class="header">
+                    FIND US ON SOCIAL
+                </div>
+                <div class="socialicons">
+                    <a class="link" href="#"><i class='bx bxl-facebook'  ></i></a>
+                    <a class="link" href="#"><i class='bx bxl-twitter'></i></a>
+                    <a class="link" href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a class="link" href="#"><i class='bx bxl-youtube'></i></a>
+                    <a class="link" href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
