@@ -149,6 +149,78 @@
         }
 
     /* <!-- Jyotirmaya -->    <!-- Product Listing grid cells --> */
+    .products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        width: 1300px;
+        height: 100vh;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .product > div{
+        height: auto;
+        padding: 10px;
+    }
+
+    .products>div>img {
+        height: 500px;
+        width: 300px;
+        position: relative;
+    }
+
+    .products>div>p {
+        font-size: small;
+    }
+
+    .products>div>h4 {
+        font-weight: 300;
+        margin-top: -10px;
+    }
+
+    .products>div>h4~p {
+        font-weight: bold;
+        font-size: medium;
+        margin-top: -15px;
+    }
+
+    .products>div>div {
+        position: absolute;
+        background-color: aqua;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 30px;
+        margin-top: -500px;
+    }
+
+    .products>div>div>p {
+        padding: 10px;
+        color: white;
+    }
+
+    .products>div>img~i {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 10px;
+        font-size: x-large;
+
+    }
+    .products>div>p~i {
+        position: absolute;
+        margin-left: 260px;
+        margin-top: -32px;
+        font-size: x-large;
+    }
+    .price{
+        color: black;
+        margin: 10px 0;
+    }
+    .price1{
+        color: black;
+        margin-top: 10px;
+    }
 </style>
 
 <body>
@@ -226,7 +298,54 @@
     </navbar>
 
     <!-- Jyotirmaya --> <!-- Product Listing grid cells -->
-
+    <div class="products">
+        <div>
+            <img src="https://imagescdn.reebok.in/img/app/product/7/789321-9231817.jpg?q=75&auto=format&w=387" alt="">
+            <i class='bx bx-heart'></i>
+            <div>
+                <p>I AM THE NEW</p>
+            </div>
+            <p class="price">TRAINING SHOES</p>
+            <i class='bx bx-cart'></i>
+            <h4>Reebok Women NFS Trainer</h4>
+            <p class="price1" style="margin-top: 10px;">₹7,599</p>
+        </div>
+        <div>
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39623048-12789893.jpg?q=75&auto=format&w=387"
+                alt="">
+            <i class='bx bx-heart'></i>
+            <div>
+                <p>I AM THE NEW</p>
+            </div>
+            <p class="price">CLASSICS SHOES</p>
+            <i class='bx bx-cart'></i>
+            <h4>Reebok Women Club C 85 W</h4>
+            <p class="price1" style="margin-top: 10px;">₹6,999</p>
+        </div>
+        <div>
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39622099-12725935.jpg?q=75&auto=format&w=387"
+                alt="">
+            <i class='bx bx-heart'></i>
+            <div>
+                <p>I AM THE NEW</p>
+            </div>
+            <p class="price">RUNNING SHOES</p>
+            <i class='bx bx-cart'></i>
+            <h4>Reebok Women Energen Plus 2</h4>
+            <p class="price1" style="margin-top: 10px;">₹6,999</p>
+        </div>
+        <div>
+            <img src="https://imagescdn.reebok.in/img/app/product/8/871819-10386950.jpg?q=75&auto=format&w=387" alt="">
+            <i class='bx bx-heart'></i>
+            <div>
+                <p>I AM THE NEW</p>
+            </div>
+            <p class="price">CLASSIC SHOES</p>
+            <i class='bx bx-cart'></i>
+            <h4>Reebok Unisex Classic Leather</h4>
+            <p class="price1" style="margin-top: 10px;">₹7,999</p>
+        </div>
+    </div>
 
 
 
